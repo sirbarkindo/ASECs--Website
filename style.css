@@ -15,7 +15,6 @@
 * {
   box-sizing: border-box;
 }
-
 html {
   scroll-behavior: smooth;
 }
@@ -299,3 +298,66 @@ h3 {
 }
 /* MEMBER 03 CONTRIBUTION END */
 
+/* MEMBER 04 CONTRIBUTION START - About section layout and mission/vision cards (CSS) */
+.section {
+  padding: 96px 0;
+}
+
+.section.compact {
+  padding-top: 56px;
+}
+
+.section > * {
+  width: min(1180px, calc(100% - 32px));
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section.tinted {
+  background: var(--panel);
+}
+
+.section-heading {
+  max-width: 780px;
+  margin-bottom: 34px;
+}
+
+.section-heading p:last-child,
+.split > div > p {
+  color: var(--muted);
+  font-size: 1.05rem;
+}
+
+.about-layout,
+.split {
+  display: grid;
+  grid-template-columns: minmax(280px, 0.8fr) minmax(0, 1.2fr);
+  gap: 24px;
+  align-items: start;
+}
+
+.about-card {
+  min-height: 100%;
+  padding: 24px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--white);
+}
+
+.about-card img {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
+  object-fit: cover;
+  border: 3px solid var(--green);
+  border-radius: 50%;
+}
+
+.about-card p {
+  color: var(--muted);
+}
+
+.vision {
+  background: var(--green-soft);
+}
+/* MEMBER 04 CONTRIBUTION END */
