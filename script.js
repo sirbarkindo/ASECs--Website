@@ -16,3 +16,9 @@ document.querySelectorAll(".nav-links a").forEach((link) => {
   });
 });
 /* 1067 CONTRIBUTION END */
+
+/* MEMBER 07 CONTRIBUTION START - Software Engineering program card polish (CSS) */
+#software article:first-child {
+  border-top: 4px solid var(--green);
+}
+/* MEMBER 07 CONTRIBUTION END */
