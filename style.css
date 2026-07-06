@@ -399,5 +399,10 @@ h3 {
 }
 /* MEMBER 05 CONTRIBUTION END */
 
+/* MEMBER 08 CONTRIBUTION START - Cyber Security program card polish (CSS) */
 
+#cyber article:first-child {
+  border-top: 4px solid var(--green-dark);
+}
+/* MEMBER 08 CONTRIBUTION END */
 
