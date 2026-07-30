@@ -30,3 +30,4 @@ ________________________________________________________________________________
 |12| CIS/STE/22/1071 | MEMBER 12 | Event filter controls, hidden state CSS, and filter JavaScript.
 ____________________________________________________________________________________________________________
 13 CIS/STE/22/1068 | MEMEBER 12 | Events Section Introduction
+14 CIS/STE/22/1080 | MEMEBER 14 | Event calendar cards and matching CSS.
