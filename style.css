@@ -519,3 +519,117 @@ h3 {
 }
 /* MEMBER 06 CONTRIBUTION END */
 
+/* ==========================================================
+   MEMBER 14 CONTRIBUTION START - Event Calendar Cards
+========================================================== */
+
+.event-list{
+    display:grid;
+    gap:1.5rem;
+    margin-top:2rem;
+}
+
+.event-card{
+    display:flex;
+    gap:1.5rem;
+    align-items:flex-start;
+    background:#ffffff;
+    border:1px solid #d8e9dc;
+    border-left:6px solid #198754;
+    padding:1.4rem;
+    border-radius:16px;
+    box-shadow:0 8px 20px rgba(0,0,0,.06);
+    transition:.3s ease;
+}
+
+.event-card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 15px 35px rgba(0,0,0,.12);
+}
+
+.event-card time{
+    min-width:75px;
+    height:75px;
+    background:#198754;
+    color:#fff;
+    border-radius:14px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    font-weight:700;
+}
+
+.event-card time .day{
+    font-size:1.6rem;
+    line-height:1;
+}
+
+.event-card time .month{
+    font-size:.85rem;
+    text-transform:uppercase;
+    letter-spacing:1px;
+}
+
+.event-content{
+    flex:1;
+}
+
+.event-content h3{
+    margin:.5rem 0;
+    color:#14532d;
+}
+
+.event-content p{
+    margin-bottom:.75rem;
+    color:#555;
+    line-height:1.6;
+}
+
+.event-location{
+    color:#198754;
+    font-weight:600;
+    font-size:.9rem;
+}
+
+.event-tag{
+    display:inline-block;
+    padding:.35rem .8rem;
+    border-radius:999px;
+    font-size:.75rem;
+    font-weight:600;
+    margin-bottom:.4rem;
+}
+
+.event-tag.training{
+    background:#e8f7ed;
+    color:#198754;
+}
+
+.event-tag.security{
+    background:#e6f4ff;
+    color:#0d6efd;
+}
+
+.event-tag.community{
+    background:#fff4d6;
+    color:#b26a00;
+}
+
+@media(max-width:768px){
+
+.event-card{
+    flex-direction:column;
+    text-align:center;
+}
+
+.event-card time{
+    margin:auto;
+}
+
+}
+
+/* ==========================================================
+   MEMBER 14 CONTRIBUTION END
+========================================================== */
+
